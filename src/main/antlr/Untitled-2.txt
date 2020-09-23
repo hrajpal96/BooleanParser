@@ -1,0 +1,10 @@
+org.example:BooleanParser:jar:1.0-SNAPSHOT
++- org.antlr:antlr4:jar:4.8-1:compile
+   +- org.antlr:antlr4-runtime:jar:4.8-1:compile
+   +- org.antlr:antlr-runtime:jar:3.5.2:compile
+   +- (org.antlr:ST4:jar:4.3:compile - omitted for conflict with 4.3.1)
+   +- org.abego.treelayout:org.abego.treelayout.core:jar:1.0.3:compile
+   +- org.glassfish:javax.json:jar:1.0.4:compile
+   \- com.ibm.icu:icu4j:jar:61.1:compile
+\- org.antlr:ST4:jar:4.3.1:compile
+   \- (org.antlr:antlr-runtime:jar:3.5.2:compile - omitted for duplicate)

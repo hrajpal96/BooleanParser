@@ -1,0 +1,2 @@
+a gt b and c gt d
+a eq b

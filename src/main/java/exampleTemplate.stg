@@ -1,0 +1,8 @@
+templateExample(functions) ::= <<
+<functions :{function | 
+def <function.function_name>(<function.params_list>)
+    return <function.expression>
+
+
+}>
+>>
